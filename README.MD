@@ -18,7 +18,7 @@ NOTE: There's no illegal "stuff" here. everything included in this guide, is com
 
 ## Common Errors / Problems
 - `invalid literal suffix 'h'` or `std::chrono::high_resolution_clock` not found
-# Fix
+Fix
 - `TrinityCore/src/common/Utilities/Duration.h`: add `<chrono>`
 - `TrinityCore/src/server/database/Updater/UpdateFetcher.cpp`: add `<chrono>`
 
